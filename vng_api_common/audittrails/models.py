@@ -99,3 +99,4 @@ class AuditTrail(models.Model):
         'oud': oud,
         'nieuw': nieuw,
     }, optional=['oud', 'nieuw'], none_for_empty=True)
+
